@@ -43,4 +43,14 @@ const numbers=(a)=>{
     const avg=squaredElement/a.length;
     return avg;
 }
-console.log(numbers([10,2,2,3,2]));
+// console.log(numbers([10,2,2,3,2]));
+
+// problem 6 :Write an arrow function 
+// that have two param as an array .
+// you merge the two array and  find the max number and return it.
+const anotherNumbers=(a,b)=>{
+   const finalArray=[...a,...b];
+   const maxNumbers=Math.max(...finalArray);
+   return maxNumbers;
+}
+// console.log(anotherNumbers([5,10,15,20],[30,40,50,100,600]));
