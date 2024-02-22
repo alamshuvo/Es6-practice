@@ -26,7 +26,7 @@ const friends=(a)=>{
     }
     return friendName;
 }
-// console.log(friends(["alam","shuvo","rahib ul Haque","azgor ali","Nazmul","Fahim sahariar joy"]));
+console.log(friends(["alam","shuvo","rahib ul Haque","azgor ali","Nazmul","Fahim sahariar joy"]));
 
 // problem5
 // write an arrow function where it will do the following x*2 
@@ -43,7 +43,7 @@ const numbers=(a)=>{
     const avg=squaredElement/a.length;
     return avg;
 }
-// console.log(numbers([10,2,2,3,2]));
+console.log(numbers([10,2,2,3,2]));
 
 // problem 6 :Write an arrow function 
 // that have two param as an array .
@@ -53,4 +53,4 @@ const anotherNumbers=(a,b)=>{
    const maxNumbers=Math.max(...finalArray);
    return maxNumbers;
 }
-// console.log(anotherNumbers([5,10,15,20],[30,40,50,100,600]));
+// console.log(anotherNumbers([5,10,15,20,1000,1],[30,40,50,100,600]));
