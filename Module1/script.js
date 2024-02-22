@@ -27,3 +27,20 @@ const friends=(a)=>{
     return friendName;
 }
 // console.log(friends(["alam","shuvo","rahib ul Haque","azgor ali","Nazmul","Fahim sahariar joy"]));
+
+// problem5
+// write an arrow function where it will do the following x*2 
+// square each array element 
+// calculate the sum of the squared element 
+// return the average of the sum of the squared element .
+
+const numbers=(a)=>{
+    let squaredElement=0;
+    for (const num of a) {
+        let square=Math.pow(num, 2);
+        squaredElement+=square;
+    }
+    const avg=squaredElement/a.length;
+    return avg;
+}
+console.log(numbers([10,2,2,3,2]));
