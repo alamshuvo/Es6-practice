@@ -16,3 +16,14 @@ const resultAdd =add(1);
 // console.log(resultAdd);
 
 
+// problem4:
+const friends=(a)=>{
+    let friendName=[];
+    for (const name of a) {
+        if (name.length %2===0) {
+            friendName.push(name);
+        }
+    }
+    return friendName;
+}
+// console.log(friends(["alam","shuvo","rahib ul Haque","azgor ali","Nazmul","Fahim sahariar joy"]));
