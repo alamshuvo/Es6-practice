@@ -122,3 +122,43 @@ const another=numbers1.find(a=>{
 console.log(another);
 
 // defferance between array filter method and array find method .array filter method return a new array .that condition  matchd on the other hand find method  return a single number that have first condition matched .Both method are not change old array .
+
+
+
+// task 6 : you have an array of object c
+// const instructor=[{name:"nodi",age:28,position:"senior"}]
+const instructor=[
+    {name:"nodi",age:28,position:"senior"},
+    {name:"akil",age:26,position:"jounior"},
+    {name:"sobuj",age:30,position:"senior"}
+];
+
+const seniorIns=instructor.filter(n=>n.position==="senior");
+const seniorInsName=seniorIns.map(n=>n.name)
+console.log(seniorInsName);
+
+// kono array of object tekhe kono kisu khuje ber korte hole sadaronooto array return kore and array k abr map kore array er each element k dekha jai 
+
+
+// task 6 : 
+const people =[
+    {name:"mina",age:20},
+    {name:"rina",age:15},
+    {name:"sucorita",age:22},
+];
+
+// using for of loop 
+function calAge(){
+    let ageSum=0;
+    for (const element of people) {
+        ageSum=ageSum+element.age;
+    }
+    return ageSum;
+}
+console.log(calAge());
+
+
+// using reduce method 
+ const a= people.reduce((acc,curent)=>acc+curent.age,0);
+
+console.log(a);
