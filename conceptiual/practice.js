@@ -45,3 +45,22 @@ console.log(a,b,c,d);
 // spreding kore poroborti value gulo k alada akta variable a store kora jai and seti akta array akare dyea takhe .
 // destractiung ta tokhn e use korbo jokhon amdaer value gula serially dorkar hoyea takeh  
 // jegula nyea nise segolo bade alada akta variaable e newa jai ,remaining ongso ta k rest operator bola hoyea takhe .
+
+
+
+// object spereding o same vabe kora jai jevbe array spredding korea hoyea takhe .
+const person ={
+    name:"iftakhar alam",
+    age:22,
+    adress:{
+        upojila:"Mirsarai",
+        zila:"chattagram",
+        thana:"jorargong",
+    },
+    p:[0,2,3],
+
+};
+const person1={...person};
+person1.email="iftakharalamsuvo11@gmail.com";
+console.log(person1);
+console.log(person);
