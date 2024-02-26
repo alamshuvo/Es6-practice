@@ -29,3 +29,19 @@
 
 
 
+// destracturing 
+const nums=[1,2,3,4,5,6,4,7,8,9];
+// const a=nums[0];
+// const b=nums[1];
+// const c=nums[2];
+// const d=nums[3];
+// console.log(a,b,c,d);
+// amr kase nirdisto akta structure ache sekhan tekhe nirdisto kisu value k nirdisto kisu variable e store kora ja 
+
+const [a,b,c,...d]=nums;
+console.log(a,b,c,d);
+
+// caile spreeding k kaje lagiea r o powerfull kora jai .
+// spreding kore poroborti value gulo k alada akta variable a store kora jai and seti akta array akare dyea takhe .
+// destractiung ta tokhn e use korbo jokhon amdaer value gula serially dorkar hoyea takeh  
+// jegula nyea nise segolo bade alada akta variaable e newa jai ,remaining ongso ta k rest operator bola hoyea takhe .
