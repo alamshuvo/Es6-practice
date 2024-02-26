@@ -39,7 +39,7 @@ const nums=[1,2,3,4,5,6,4,7,8,9];
 // amr kase nirdisto akta structure ache sekhan tekhe nirdisto kisu value k nirdisto kisu variable e store kora ja 
 
 const [a,b,c,...d]=nums;
-console.log(a,b,c,d);
+// console.log(a,b,c,d);
 
 // caile spreeding k kaje lagiea r o powerfull kora jai .
 // spreding kore poroborti value gulo k alada akta variable a store kora jai and seti akta array akare dyea takhe .
@@ -62,5 +62,12 @@ const person ={
 };
 const person1={...person};
 person1.email="iftakharalamsuvo11@gmail.com";
-console.log(person1);
-console.log(person);
+// console.log(person1);
+// console.log(person);
+
+
+// object destructing
+const {name,adress}=person;
+console.log(name,adress);
+// khub sohoje object destructing kora jai ,ekhane kono siquance er  dorkar hoi na array er moto .j property ta dorkar setir nam likhle takhe pawa  jabe .
+// deeply destructing mane nested object k access korar jonno jevabe use kora hoyea takhe take bola hoi deeply destructing .
