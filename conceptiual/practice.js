@@ -71,3 +71,9 @@ const {name,adress}=person;
 console.log(name,adress);
 // khub sohoje object destructing kora jai ,ekhane kono siquance er  dorkar hoi na array er moto .j property ta dorkar setir nam likhle takhe pawa  jabe .
 // deeply destructing mane nested object k access korar jonno jevabe use kora hoyea takhe take bola hoi deeply destructing .
+
+
+
+const numbers=[1,2,3,4,5];
+const sum =numbers.reduce((preValue,currentvalue)=>preValue+currentvalue,0);
+console.log(sum);
